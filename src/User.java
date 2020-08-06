@@ -43,5 +43,7 @@ public class User {
         System.out.println(kate.name + " " + kate.age);
         System.out.println(masha.name + " " + masha.age);
         System.out.println(sara.name + " " + sara.age);
+        System.out.println();
+        System.out.println("The total number of users at the moment: " + count);
     }
 }
