@@ -8,7 +8,7 @@ public class User {
     // Constructor №1
     public User(String name, short age, int height) {
         count++;
-        this.name = name;
+        this.name = count + ". " + "User named: " + name + " aged ";
         this.age = age;
         this.height = height;
     }
@@ -16,7 +16,7 @@ public class User {
     // Constructor №2
     public User(String name, int height, short age) {
         count++;
-        this.name = name;
+        this.name = count + ". " + "User named: " + name + " aged ";
         this.height = height;
         this.age = age;
     }
@@ -25,7 +25,7 @@ public class User {
     public User(short age, String name, int height) {
         count++;
         this.age = age;
-        this.name = name;
+        this.name = count + ". " + "User named: " + name + " aged ";
         this.height = height;
     }
 
@@ -40,5 +40,8 @@ public class User {
         System.out.println(bill.name + " " + bill.age);
         System.out.println(jack.name + " " + jack.age);
         System.out.println(michael.name + " " + michael.age);
+        System.out.println(kate.name + " " + kate.age);
+        System.out.println(masha.name + " " + masha.age);
+        System.out.println(sara.name + " " + sara.age);
     }
 }
